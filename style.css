@@ -1,0 +1,56 @@
+.nav-list {
+    margin: 20px;
+    font-size: 0; /* Лайфхак для того, щоб прибрати перенос рядка */
+    background-color: orangered;
+}
+
+.list-item {
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    background-color: orangered;
+    padding: 10px;
+}
+
+.link {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+
+.sub-nav-list {
+    display: none; 
+}
+.sub-nav-list2 {
+    display: none; 
+}
+.sub-nav-list3 {
+    display: none; 
+}
+
+.list-item:hover > .sub-nav-list {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.sub-list-item {
+    display: block;
+    padding: 10px;
+}
+
+.list-item:hover > .sub-nav-list2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+.list-item:hover > .sub-nav-list3 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
