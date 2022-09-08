@@ -9,14 +9,14 @@
     font-size: 16px;
     position: relative;
     background-color: orangered;
-    padding: 10px;
 }
 
 .link {
-    padding: 10px;
+    padding: 0px 30px 0px 10px;
+    line-height: 50px;
     color: white;
     text-decoration: none;
-    width: inherit;
+    display: block;
 }
 
 .sub-nav-list, .sub-nav-list2, .sub-nav-list3 {
